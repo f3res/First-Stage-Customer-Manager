@@ -1,0 +1,25 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.mat-toolbar {
+  background: #0d7af9;
+  color: rgb(255 255 255);
+}
+.mat-toolbar a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+ul li {
+  display: inline;
+  cursor: pointer;
+}
+
+.active {
+  background-color: #fff;
+  color: #607d8b;
+  border-radius: 5px;
+}
+.nav-bar-image {
+  height: 60px;
+}

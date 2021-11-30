@@ -1,0 +1,29 @@
+<div class="col-12 px-5">
+  <div class="row">
+    <table class="table table-striped">
+      <thead>
+      <tr>
+        <th scope="col">Name</th>
+        <th scope="col">Address</th>
+        <th scope="col">View Orders</th>
+        <th scope="col">action</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let customer of customers; index as i">
+        <td>
+          <img src="../../../../assets/images/male-customer.png" *ngIf="customer.six ==='male'" class="mr-2" style="width: 20px">
+          <img src="../../../../assets/images/female-customer.png" *ngIf="customer.six ==='female'" class="mr-2" style="width: 20px">
+          {{customer.first_name}} {{customer.last_name}}
+        </td>
+        <td>{{customer.state}}, {{customer.city}}</td>
+        <td><a [routerLink]="'../../Orders/' + customer.id"></a> View Orders</td>
+        <td>
+          <a (click)="editItem(customer)">edite</a>
+          <a (click)="editItem(customer)">delete</a>
+        </td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

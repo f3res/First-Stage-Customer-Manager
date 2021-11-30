@@ -1,0 +1,11 @@
+.card-header {
+  background: #0d7af9;
+  color: rgb(255 255 255);
+  padding: 0.3rem 1rem !important;
+}
+.customer-image {
+  width: 30%;
+}
+.customer-image img {
+  width: 70%;
+}

@@ -1,0 +1,41 @@
+<mat-drawer-container class="example-container" [hasBackdrop]="false">
+  <mat-drawer-content>
+      <div class="container-fluid">
+        <div class="row mt-3">
+          <div class="ml-4">
+            <span class="material-icons h2 head-title">
+              shopping_cart
+            </span>
+            <span class="h4">
+              Orders
+            </span>
+          </div>
+
+          <div class="col-12 px-5">
+
+              <table class="table table-striped">
+                <thead>
+                <tr>
+                  <th scope="col">Order Name</th>
+                  <th scope="col">Customer Name</th>
+                  <th scope="col">brand</th>
+                  <th scope="col">price</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr *ngFor="let order of orders; index as i">
+                  <td>{{order.name}}</td>
+                  <td>{{order.customerName}}</td>
+                  <td>{{order.brand}}</td>
+                  <td>{{order.price | currency}}</td>
+                </tr>
+                </tbody>
+              </table>
+              <p class="text-center h6 w-100" *ngIf="!orders.length">There is no data</p>
+          </div>
+
+
+        </div>
+      </div>
+  </mat-drawer-content>
+</mat-drawer-container>

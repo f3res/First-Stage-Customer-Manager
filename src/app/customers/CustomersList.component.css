@@ -1,0 +1,25 @@
+.example-container {
+  height: 100%;
+  margin: 0;
+}
+.mat-drawer {
+  position: fixed;
+}
+.head-title {
+  vertical-align: middle;
+}
+.nav-link {
+  color: #a2a2a2;
+  cursor: pointer;
+}
+.view-active {
+  color: #000;
+  font-weight: 600;
+}
+.visually-hidden {
+  visibility: hidden;
+}
+.filter input {
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+}

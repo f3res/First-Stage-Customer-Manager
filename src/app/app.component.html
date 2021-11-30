@@ -1,0 +1,14 @@
+<mat-toolbar>
+  <a routerLink="./Customers">
+    <img  src="../assets/images/people-group.png" class="mr-1 nav-bar-image" alt="" srcset="">
+    <span class="mr-4 h3">Customer Manager</span>
+  </a>
+
+  <ul class="mb-0">
+    <li routerLink="./Customers"  routerLinkActive="active" class="mx-1 py-1 px-3 h5">Customer</li>
+    <li routerLink="./Orders"  routerLinkActive="active" class="mx-1 py-1 px-3 h5">Orders</li>
+    <li   routerLinkActive="active" class="mx-1 py-1 px-3 h5">About</li>
+    <li  routerLinkActive="active" class="mx-1 py-1 px-3 h5">Login</li>
+  </ul>
+</mat-toolbar>
+<router-outlet></router-outlet>

@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "name": "VicTsing Wireless Mouse,",
+    "brand": "VicTsing",
+    "price": 10.99,
+    "customerID": 3,
+    "customerName": "Art Chemel"
+  },
+  {
+    "id": 2,
+    "name": "Bose Frames Tenor - Rectangular Polarized, Bluetooth Audio Sunglasses",
+    "brand": "Bose",
+    "price": 249.0,
+    "customerID": 4,
+    "customerName": "James Butterburg"
+  },
+  {
+    "id": 3,
+    "name": "Willful Smart Watch for Men Women 2020,",
+    "brand": "Willful",
+    "price": 29.99,
+    "customerID": 5,
+    "customerName": "Josephine Darakjy"
+  },
+  {
+    "id": 4,
+    "name": "Ronyes Unisex College Bag Bookbags for Women",
+    "brand": "Ronyes",
+    "price": 23.99,
+    "customerID": 2,
+    "customerName": "Josephine Darakjy"
+  },
+  {
+    "id": 5,
+    "name": "Toshiba Canvio Advance 2TB Portable External Hard Drive",
+    "brand": "Toshiba",
+    "price": 69.99,
+    "customerID": 2,
+    "customerName": "Josephine Darakjy"
+  },
+  {
+    "id": 6,
+    "name": "Tile Pro - High Performance Bluetooth Tracker",
+    "brand": "Tile",
+    "price": 29.99,
+    "customerID": 4,
+    "customerName": "James Butterburg"
+  },
+  {
+    "id": 7,
+    "name": "Bugani M90 Portable Bluetooth Speaker",
+    "brand": "Bugani",
+    "price": 56.0,
+    "customerID": 3,
+    "customerName": "Art Chemel"
+  },
+  {
+    "id": 8,
+    "name": "PlayStation 4 Console",
+    "brand": "Sony",
+    "price": 339.95,
+    "customerID": 4,
+    "customerName": "James Butterburg"
+  },
+  {
+    "id": 9,
+    "name": "Giotto 32oz Leakproof BPA Free Drinking Water",
+    "brand": "3M",
+    "price": 16.99,
+    "customerID": 4,
+    "customerName": "James Butterburg"
+  },
+  {
+    "id": 10,
+    "name": "Oculus Quest All-in-one VR",
+    "brand": "Oculus",
+    "price": 645.0,
+    "customerID": 1,
+    "customerName": "James Butterburg"
+  },
+  {
+    "id": 11,
+    "name": "Oculus Quest All-in-one VR",
+    "brand": "Oculus",
+    "price": 645.0,
+    "customerID": 1,
+    "customerName": "James Butterburg"
+  }
+]
